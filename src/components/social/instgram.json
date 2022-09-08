@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_social_instgrams",
+  "info": {
+    "displayName": "Instgram",
+    "icon": "camera-retro"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "appIcon": {
+      "type": "string",
+      "default": "instagram"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_social_e_mails",
+  "info": {
+    "displayName": "E-Mail",
+    "icon": "envelope",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "email"
+    },
+    "appIcon": {
+      "type": "string",
+      "default": "envelope"
+    }
+  }
+}

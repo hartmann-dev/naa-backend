@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_social_telegrams",
+  "info": {
+    "displayName": "Telegram",
+    "icon": "paper-plane"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "appIcon": {
+      "type": "string",
+      "default": "telegram-plane"
+    }
+  }
+}

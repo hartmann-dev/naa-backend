@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_social_twitters",
+  "info": {
+    "displayName": "Twitter",
+    "icon": "dove"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "appIcon": {
+      "type": "string",
+      "default": "twitter"
+    }
+  }
+}

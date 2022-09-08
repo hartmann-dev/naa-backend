@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_social_facebooks",
+  "info": {
+    "displayName": "Facebook",
+    "icon": "thumbs-up"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "appIcon": {
+      "type": "string",
+      "default": "facebook"
+    }
+  }
+}
