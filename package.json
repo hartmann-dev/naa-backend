@@ -9,12 +9,14 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.3.8",
-    "@strapi/plugin-users-permissions": "4.3.8",
     "@strapi/plugin-i18n": "4.3.8",
-    "mysql": "2.18.1"
+    "@strapi/plugin-users-permissions": "4.3.8",
+    "@strapi/provider-email-sendgrid": "^4.3.8",
+    "@strapi/strapi": "4.3.8",
+    "expo-server-sdk": "^3.6.0",
+    "mysql": "2.18.1",
+    "slugify": "^1.6.5"
   },
   "author": {
     "name": "Harald Hartmann"
