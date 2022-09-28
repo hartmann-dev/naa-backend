@@ -23,17 +23,19 @@ module.exports = {
   beforeUpdate: async (event) => {
     const { data } = event.params;
 
-    const locale = data.slug ? data.slug.split("-")[0] : null;
-    var rand = Math.floor(1000 + Math.random() * 9000);
+    if (!data.slug) {
+      const locale = data.locale ? data.locale : "de";
+      var rand = Math.floor(1000 + Math.random() * 9000);
 
-    if (locale && data.title && data.type) {
-      event.params.data.slug = slugify(
-        `${locale} ${data.type} ${data.title} ${rand}`,
-        {
-          lower: true,
-          locals: "de",
-        }
-      );
+      if (locale && data.title && data.type) {
+        event.params.data.slug = slugify(
+          `${locale} ${data.type} ${data.title} ${rand}`,
+          {
+            lower: true,
+            locals: "de",
+          }
+        );
+      }
     }
   },
   afterCreate: async (event) => {

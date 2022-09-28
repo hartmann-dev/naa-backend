@@ -93,8 +93,7 @@
         }
       },
       "type": "string",
-      "unique": true,
-      "private": true
+      "unique": true
     },
     "pushNotification": {
       "pluginOptions": {
